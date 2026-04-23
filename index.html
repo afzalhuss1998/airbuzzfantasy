@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airbuzz Fantasy</title>
+  <meta name="description" content="Join Airbuzz Fantasy for match insights, fantasy sports updates, and a simple sign-up experience." />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
+      color: #ffffff;
+      line-height: 1.5;
+    }
+    .container {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    .hero {
+      padding: 56px 0 28px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #cbd5e1;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+    h1 {
+      font-size: 44px;
+      margin: 0 0 14px;
+      line-height: 1.15;
+    }
+    .hero p {
+      color: #cbd5e1;
+      max-width: 760px;
+      margin: 0 auto 24px;
+      font-size: 18px;
+    }
+    .cta-row {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 14px 22px;
+      border-radius: 12px;
+      font-weight: 700;
+      transition: 0.2s ease;
+    }
+    .btn-primary {
+      background: #22c55e;
+      color: #08120d;
+    }
+    .btn-primary:hover { transform: translateY(-1px); }
+    .btn-secondary {
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #ffffff;
+      background: rgba(255,255,255,0.05);
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin: 34px 0;
+    }
+    .card {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      padding: 22px;
+      backdrop-filter: blur(6px);
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+    }
+    .card p {
+      margin: 0;
+      color: #cbd5e1;
+      font-size: 15px;
+    }
+    .section {
+      padding: 18px 0 8px;
+    }
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .section > p {
+      text-align: center;
+      color: #cbd5e1;
+      max-width: 760px;
+      margin: 0 auto 24px;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .step-number {
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #22c55e;
+      color: #08120d;
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+    .footer-box {
+      margin-top: 34px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 18px;
+      padding: 24px;
+      text-align: center;
+    }
+    .footer-box p {
+      color: #cbd5e1;
+      margin: 8px 0;
+    }
+    .small {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-top: 14px;
+    }
+    @media (max-width: 900px) {
+      .card-grid, .steps { grid-template-columns: 1fr; }
+      h1 { font-size: 34px; }
+      .hero p { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <div class="badge">Airbuzz Fantasy</div>
+      <h1>Fantasy Sports Updates, Match Insights & Quick Support</h1>
+      <p>
+        Stay connected with Airbuzz Fantasy for sports-focused updates, simple onboarding,
+        and direct support for users who want a smooth fantasy sports experience.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://wa.me/447781545934?text=Hi%20Airbuzz%20Fantasy%2C%20I%20want%20to%20get%20started." target="_blank" rel="noopener noreferrer">Get Started on WhatsApp</a>
+        <a class="btn btn-secondary" href="#how-it-works">See How It Works</a>
+      </div>
+    </section>
+
+    <section class="card-grid">
+      <div class="card">
+        <h3>Fantasy Sports Focus</h3>
+        <p>Built for users interested in sports engagement, team selection, and match-based fantasy play.</p>
+      </div>
+      <div class="card">
+        <h3>Simple Joining Process</h3>
+        <p>Quick support through WhatsApp so users can ask questions and get started without confusion.</p>
+      </div>
+      <div class="card">
+        <h3>Match Day Updates</h3>
+        <p>Get timely updates, fixture reminders, and platform guidance for a smoother user experience.</p>
+      </div>
+    </section>
+
+    <section class="section" id="how-it-works">
+      <h2>How It Works</h2>
+      <p>Start in a few easy steps with a clear, sports-focused flow.</p>
+      <div class="steps">
+        <div class="card">
+          <div class="step-number">1</div>
+          <h3>Connect</h3>
+          <p>Tap the WhatsApp button to reach the Airbuzz Fantasy support team.</p>
+        </div>
+        <div class="card">
+          <div class="step-number">2</div>
+          <h3>Get Guidance</h3>
+          <p>Receive help with account access, platform navigation, and getting started.</p>
+        </div>
+        <div class="card">
+          <div class="step-number">3</div>
+          <h3>Join the Experience</h3>
+          <p>Stay updated with sports-related information and fantasy platform support.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-box">
+      <h2 style="margin-top:0;">Need Help?</h2>
+      <p>WhatsApp Support: <strong>+44 7781 545934</strong></p>
+      <p>For onboarding and platform guidance, message us directly.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://wa.me/447781545934?text=Hi%20Airbuzz%20Fantasy%2C%20please%20share%20details." target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+      </div>
+      <p class="small">
+        This page is intended as a simple promotional landing page for a fantasy sports experience.
+        Ad approval depends on platform review, landing-page content, account history, geo, and policy checks.
+      </p>
+    </section>
+  </div>
+</body>
+</html>
